@@ -1,11 +1,11 @@
-import java.util.Scanner;
+import java.util.*;
 class Palindrome {
 
-    public static void main(String args[])
+  public static void main(String args[])
     {
-	 Scanner in = new Scanner(System.in);
+	 Scanner sc = new Scanner(System.in);
      System.out.print("Input a number: ");
-     int n = in.nextInt();
+     int n = sc.nextInt();
      int sum = 0, r;
 	 int temp = n;    
      while(n>0)
